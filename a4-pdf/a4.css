@@ -7,10 +7,10 @@
     border-radius: 0;
 }
 .a4 .content-left{
-	width: 52%;
+	width: 50%;
 }
 .a4 .content-right{
-	width: 48%;
+	width: 50%;
 }
 .a4 .content-hd {
 	padding: 60px 50px 40px;
@@ -50,6 +50,9 @@
 }
 .a4 .content-bd .item-hd {
 	padding: 10px 0 8px;
+}
+.a4 .content-bd .item-hd .item-name {
+	margin-left: 12px;
 }
 .a4 .content-bd .project .item-hd {
 	padding: 10px 0 6px;
