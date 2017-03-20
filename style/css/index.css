@@ -34,4 +34,25 @@
 }
 .header-info {
   font-size: 16px;
+  margin-left: 125px;
+  line-height: 52px;
+}
+.header-info i {
+  margin-right: 10px;
+}
+.header-contact {
+  line-height: 38px;
+  margin-left: 90px;
+}
+.header-contact a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.header-contact a:hover > span {
+  text-decoration: underline;
+}
+.header-contact i {
+  margin-right: 10px;
 }

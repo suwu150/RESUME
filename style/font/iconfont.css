@@ -15,21 +15,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-zhuye:before { content: "\e600"; }
+.icon-zhuye:before { content: "\e600";font-size: 18px; }
 
-.icon-iconfont10:before { content: "\e615"; }
+.icon-iconfont10:before { content: "\e615";    font-size: 19px; }
 
-.icon-xiaoyuan:before { content: "\e66f"; }
+.icon-xiaoyuan:before { content: "\e66f";font-size: 18px; }
 
 .icon-jineng:before { content: "\e616"; }
 
 .icon-baoji:before { content: "\e617"; }
 
-.icon-email:before { content: "\e61b"; }
+.icon-email:before { content: "\e61b";font-size: 20px; }
 
-.icon-person:before { content: "\e83b"; }
+.icon-person:before { content: "\e83b";font-size: 19px; }
 
-.icon-github:before { content: "\eaf6"; }
+.icon-github:before { content: "\eaf6";font-size: 18px; }
 
 .icon-zhengshu:before { content: "\e665"; }
 
@@ -37,5 +37,5 @@
 
 .icon-xuexiao:before { content: "\e604"; }
 
-.icon-bylx:before { content: "\e609"; }
+.icon-bylx:before { content: "\e609";font-size: 15px; }
 
