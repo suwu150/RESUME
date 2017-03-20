@@ -21,7 +21,7 @@
 
 .icon-xiaoyuan:before { content: "\e66f";font-size: 18px; }
 
-.icon-jineng:before { content: "\e616"; }
+.icon-jineng:before { content: "\e616";content: "\e616";font-size: 20px;margin: 0px -2px 0 4px;}
 
 .icon-baoji:before { content: "\e617"; }
 
@@ -31,11 +31,11 @@
 
 .icon-github:before { content: "\eaf6";font-size: 18px; }
 
-.icon-zhengshu:before { content: "\e665"; }
+.icon-zhengshu:before { content: "\e665";    font-size: 21px;margin: 0 0 0 4px; }
 
-.icon-work:before { content: "\e6bb"; }
+.icon-work:before { content: "\e6bb";font-size: 24px; }
 
-.icon-xuexiao:before { content: "\e604"; }
+.icon-xuexiao:before { content: "\e604";    content: "\e604";font-size: 20px; margin: 0 2px; }
 
 .icon-bylx:before { content: "\e609";font-size: 15px; }
 

@@ -56,3 +56,64 @@
 .header-contact i {
   margin-right: 10px;
 }
+.flag {
+  color: #fff;
+}
+.flag h2 {
+  display: inline-block;
+}
+.flag-lf {
+  position: relative;
+  float: left;
+  padding-left: 30px;
+  width: 20%;
+  height: 36px;
+  font-size: 24px;
+  background-color: #00a0da;
+}
+.flag-lf:after {
+  position: absolute;
+  right: -35px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 18px solid #00a0da;
+  border-left: 18px solid #00a0da;
+}
+.flag-rf {
+  position: relative;
+  margin-top: 16px;
+  float: right;
+  height: 20px;
+  width: 75.5%;
+  background-color: #e5e5e5;
+}
+.flag-rf:before {
+  position: absolute;
+  left: -20px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 10px solid #e5e5e5;
+  border-right: 10px solid #e5e5e5;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.practice {
+  margin-top: 50px;
+  min-height: 200px;
+}
+.school {
+  margin-top: 50px;
+  min-height: 200px;
+}
+.skill {
+  margin-top: 50px;
+  min-height: 200px;
+}
+.prize {
+  margin-top: 50px;
+  min-height: 200px;
+}
