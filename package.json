@@ -1,0 +1,31 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "personal resume",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "open": "^0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proYang/RESUME.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "slaneyang\u001b[D\u001b[D\u001b[D\u001b[D \u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[Cyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proYang/RESUME/issues"
+  },
+  "homepage": "https://github.com/proYang/RESUME#readme"
+}

@@ -1,0 +1,43 @@
+@import "../css/lib/reset.css";
+
+@mian-color: #00a0da;
+
+.content {
+  margin: 0 auto;
+  width: 970px;
+  height: 1372px;
+	box-shadow: 0 0 15px silver;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.header {
+  padding: 63px 50px 0;
+	background-color: @mian-color;
+  color: #fff;
+  height: 250px;
+  >section {
+    float: left;
+  }
+  &-title {
+    &-name {
+      font-size: 48px;
+      font-weight: 500;
+      letter-spacing: 5px;
+      
+    }
+    small {
+      margin: -7px 0 10px 0;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      display: block;
+    }
+    &-job {
+      font-size: 26px;
+    }
+  }
+  &-info {
+    font-size: 16px;
+  }
+}

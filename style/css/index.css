@@ -1,0 +1,36 @@
+@import "../css/lib/reset.css";
+.content {
+  margin: 0 auto;
+  width: 970px;
+  height: 1372px;
+  box-shadow: 0 0 15px silver;
+  background-color: #fff;
+  overflow: hidden;
+}
+.header {
+  padding: 63px 50px 0;
+  background-color: #00a0da;
+  color: #fff;
+  height: 250px;
+}
+.header > section {
+  float: left;
+}
+.header-title-name {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.header-title small {
+  margin: -7px 0 10px 0;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+}
+.header-title-job {
+  font-size: 26px;
+}
+.header-info {
+  font-size: 16px;
+}
