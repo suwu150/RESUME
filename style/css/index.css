@@ -77,7 +77,7 @@
 }
 .flag-lf:after {
   position: absolute;
-  right: -35px;
+  right: -36px;
   content: '';
   width: 0;
   height: 0;
