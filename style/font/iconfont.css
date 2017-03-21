@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1490001566013'); /* IE9*/
-  src: url('iconfont.eot?t=1490001566013#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1490001566013') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1490001566013') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1490001566013#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1490082794173'); /* IE9*/
+  src: url('iconfont.eot?t=1490082794173#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1490082794173') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1490082794173') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1490082794173#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -15,27 +15,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-zhuye:before { content: "\e600";font-size: 18px; }
+.icon-zhuye:before { content: "\e600"; }
 
-.icon-iconfont10:before { content: "\e615";    font-size: 19px; }
+.icon-iconfont10:before { content: "\e615"; }
 
-.icon-xiaoyuan:before { content: "\e66f";font-size: 18px; }
+.icon-xiaoyuan:before { content: "\e66f"; }
 
-.icon-jineng:before { content: "\e616";content: "\e616";font-size: 20px;margin: 0px -2px 0 4px;}
+.icon-jineng:before { content: "\e616"; }
 
 .icon-baoji:before { content: "\e617"; }
 
-.icon-email:before { content: "\e61b";font-size: 20px; }
+.icon-email:before { content: "\e61b"; }
 
-.icon-person:before { content: "\e83b";font-size: 19px; }
+.icon-person:before { content: "\e83b"; }
 
-.icon-github:before { content: "\eaf6";font-size: 18px; }
+.icon-github:before { content: "\eaf6"; }
 
-.icon-zhengshu:before { content: "\e665";    font-size: 21px;margin: 0 0 0 4px; }
+.icon-zhengshu:before { content: "\e665"; }
 
-.icon-work:before { content: "\e6bb";font-size: 24px; }
+.icon-work:before { content: "\e6bb"; }
 
-.icon-xuexiao:before { content: "\e604";    content: "\e604";font-size: 20px; margin: 0 2px; }
+.icon-xuexiao:before { content: "\e604"; }
 
-.icon-bylx:before { content: "\e609";font-size: 15px; }
+.icon-bylx:before { content: "\e609"; }
+
+.icon-pdf:before { content: "\e661"; }
 

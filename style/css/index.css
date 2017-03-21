@@ -1,18 +1,20 @@
 @import "../css/lib/reset.css";
 @import "../font/iconfont.css";
 .content {
+  position: relative;
   margin: 0 auto;
   width: 970px;
   height: 1372px;
   box-shadow: 0 0 15px silver;
   background-color: #fff;
   overflow: hidden;
+  font-size: 14px;
 }
 .header {
-  padding: 63px 50px 0;
+  padding: 40px 50px 0px;
   background-color: #00a0da;
   color: #fff;
-  height: 250px;
+  height: 220px;
 }
 .header > section {
   float: left;
@@ -57,7 +59,9 @@
   margin-right: 10px;
 }
 .flag {
+  margin: 15px 0;
   color: #fff;
+  overflow: hidden;
 }
 .flag h2 {
   display: inline-block;
@@ -65,7 +69,7 @@
 .flag-lf {
   position: relative;
   float: left;
-  padding-left: 30px;
+  padding-left: 20px;
   width: 20%;
   height: 36px;
   font-size: 24px;
@@ -101,19 +105,109 @@
   border-bottom: 10px solid transparent;
   border-left: 10px solid transparent;
 }
+.section-bd {
+  padding: 0 50px;
+  font-size: 15px;
+}
+.section-bd .item-hd {
+  line-height: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+.section-bd .item-time {
+  width: 240px;
+  display: inline-block;
+}
+.section-bd .item-name {
+  width: 240px;
+  display: inline-block;
+}
+.section-bd .item-title {
+  width: 240px;
+  display: inline-block;
+}
+.section-bd .item-more {
+  display: inline-block;
+}
+.section-content {
+  color: #555;
+}
+.section-content strong {
+  font-family: Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  font-weight: 500;
+  color: #555;
+  margin: 2px;
+  padding: 0 4px;
+  background-color: #eee;
+}
 .practice {
-  margin-top: 50px;
-  min-height: 200px;
+  margin-top: 35px;
 }
-.school {
-  margin-top: 50px;
-  min-height: 200px;
+.practice .section-content {
+  position: relative;
+  padding-left: 2em;
 }
-.skill {
-  margin-top: 50px;
-  min-height: 200px;
+.practice .section-content:before {
+  position: absolute;
+  content: '•';
+  left: 0px;
+  top: -15px;
+  font-size: 35px;
 }
-.prize {
-  margin-top: 50px;
-  min-height: 200px;
+.school .section-content {
+  text-indent: 2em;
+}
+.skill .section-list {
+  list-style: disc;
+  margin-left: 1em;
+}
+.skill .section-list > li {
+  margin-bottom: 5px;
+}
+.prize-item {
+  line-height: 30px;
+}
+.prize-time {
+  margin-right: 40px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #00a0da;
+}
+.pdf {
+  display: inline-block;
+  position: fixed;
+  z-index: 10;
+  bottom: 6px;
+  left: 50%;
+  margin-left: 520px;
+  padding: 0 8px;
+  color: #fff;
+  background-color: #3b444e;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn {
+  display: inline-block;
+  padding: 0 5px;
+  border: 1px solid #00a0da;
+  border-radius: 3px;
+  color: #00a0da;
+  font-family: Menlo, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #00a0da;
 }

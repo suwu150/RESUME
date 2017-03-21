@@ -5,19 +5,21 @@
 @mian-color: #00a0da;
 
 .content {
+  position: relative;
   margin: 0 auto;
   width: 970px;
   height: 1372px;
 	box-shadow: 0 0 15px silver;
 	background-color: #fff;
 	overflow: hidden;
+  font-size: 14px;
 }
 
 .header {
-  padding: 63px 50px 0;
-	background-color: @mian-color;
+  padding: 40px 50px 0px;
+  background-color: @mian-color;
   color: #fff;
-  height: 250px;
+  height: 220px;
   >section {
     float: left;
   }
@@ -68,14 +70,16 @@
 }
 
 .flag {
+  margin: 15px 0;
   color: #fff;
+  overflow: hidden;
   h2 {
     display: inline-block;
   }
   &-lf {
     position: relative;
     float: left;
-    padding-left: 30px;
+    padding-left: 20px;
     width: 20%;
     height: 36px;
     font-size: 24px;
@@ -113,19 +117,121 @@
   }
 }
 
+.section-bd {
+  padding: 0 50px;
+  font-size: 15px;
+  .item {
+    &-hd {
+      line-height: 40px;
+      font-weight: 600;
+      text-align: left;
+    }
+    &-time {
+      width: 240px;
+      display: inline-block;
+    }
+    &-name {
+      width: 240px;
+      display: inline-block;
+    }
+    &-title {
+      width: 240px;
+      display: inline-block;
+    }
+    &-more {
+      display: inline-block;
+    }
+  }
+}
+.section-content  {
+  color: #555;
+  strong{
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft YaHei,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #f3f3f3;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #555;
+    margin: 2px;
+    padding: 0 4px;
+    background-color: #eee;
+  }
+    
+}
 .practice {
-  margin-top: 50px;
-  min-height: 200px;
+  margin-top: 35px;
+  .section-content {
+    position: relative;
+    padding-left: 2em;
+    &:before {
+      position: absolute;
+      content: '•';
+      left: 0px;
+      top: -15px;
+      font-size: 35px;
+    }
+  }
 }
 .school {
-  margin-top: 50px;
-  min-height: 200px;
+  .section-content {
+    text-indent: 2em;
+  }
 }
 .skill {
-  margin-top: 50px;
-  min-height: 200px;
+  .section-list {
+    list-style: disc;
+    margin-left: 1em;
+    >li {
+      margin-bottom: 5px;
+    }
+  }
 }
 .prize {
-  margin-top: 50px;
-  min-height: 200px;
+  &-item {
+    line-height: 30px;
+  }
+  &-time {
+    margin-right: 40px;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: @mian-color;
+}
+
+.pdf {
+    display: inline-block;
+    position: fixed;
+    z-index: 10;
+    bottom: 6px;
+    left: 50%;
+    margin-left: 520px;
+    padding: 0 8px;
+    color: #fff;
+    background-color: #3b444e;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid @mian-color;
+    border-radius: 3px;
+    color: @mian-color;
+    font-family: Menlo,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    &:hover {
+      color: #fff;
+      background-color: @mian-color;
+    }
 }
